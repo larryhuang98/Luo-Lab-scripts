@@ -1,1 +1,1 @@
-qdel $(qstat -u <your_username> | awk 'NR > 2 {print $1}')
+qdel $(qstat -u larryh1998 | awk 'NR > 2 {print $1}')
